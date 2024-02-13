@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Package_DFN_QFN_Extra")(type "KiCad")(uri "${KIPRJMOD}/modules/Package_DFN_QFN_Extra.pretty")(options "")(descr ""))
+  (lib (name "RP2xxx_stamp")(type "KiCad")(uri "${KIPRJMOD}/RP2xxx_stamp.pretty")(options "")(descr ""))
+  (lib (name "Symbols_Extra")(type "KiCad")(uri "${KIPRJMOD}/modules/Symbols_Extra.pretty")(options "")(descr ""))
+)
