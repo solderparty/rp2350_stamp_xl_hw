@@ -2330,6 +2330,151 @@
 				)
 			)
 		)
+		(symbol "Jumper:Jumper_2_Small_Bridged"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Small_Bridged"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, small symbol, bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Small_Bridged_0_0"
+				(circle
+					(center -1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Bridged_0_1"
+				(arc
+					(start 0.762 0.254)
+					(mid 0 0.5696)
+					(end -0.762 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Bridged_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "MCU_RaspberryPi:RP235x-B"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5810,6 +5955,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 96.52) (xy 45.72 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "163e1a5b-2f52-49dc-af25-65d3455be464")
+	)
+	(wire
+		(pts
 			(xy 41.91 180.34) (xy 41.91 181.61)
 		)
 		(stroke
@@ -6240,7 +6395,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 96.52) (xy 29.21 96.52)
+			(xy 20.32 96.52) (xy 21.59 96.52)
 		)
 		(stroke
 			(width 0)
@@ -6657,16 +6812,6 @@
 			(type solid)
 		)
 		(uuid "5df4d265-551f-4698-9fdf-c6da8979a677")
-	)
-	(wire
-		(pts
-			(xy 45.72 96.52) (xy 43.18 96.52)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "5ec37ab0-55e5-46e4-8da9-3d73857dc450")
 	)
 	(wire
 		(pts
@@ -7900,7 +8045,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 96.52) (xy 34.29 96.52)
+			(xy 30.48 96.52) (xy 26.67 96.52)
 		)
 		(stroke
 			(width 0)
@@ -7910,7 +8055,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 96.52) (xy 26.67 95.25)
+			(xy 20.32 96.52) (xy 20.32 95.25)
 		)
 		(stroke
 			(width 0)
@@ -8297,6 +8442,16 @@
 			(type solid)
 		)
 		(uuid "f4718b6c-eb94-42a3-a35b-0b5405bbd9e6")
+	)
+	(wire
+		(pts
+			(xy 35.56 96.52) (xy 39.37 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5a55fbc-9b9f-48c4-97ca-032bc9d2a94b")
 	)
 	(wire
 		(pts
@@ -10364,6 +10519,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 41.91 96.52 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a5abbb2-d96d-42a1-b508-872038495166")
+		(property "Reference" "JP1"
+			(at 41.91 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "SJ_STAT_LED"
+			(at 41.91 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 41.91 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 41.91 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af59875d-be19-459f-9ff0-b27179784f99")
+		)
+		(pin "2"
+			(uuid "b42e054b-f063-48f3-b555-d30676ff2e7f")
+		)
+		(instances
+			(project "rp2350_stamp_xl"
+				(path "/019f2816-6bfb-4531-95b3-45f73cf5fc4b"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 60.96 71.12 0)
 		(unit 1)
@@ -11200,7 +11425,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 40.64 96.52 270)
+		(at 33.02 96.52 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11208,7 +11433,7 @@
 		(dnp no)
 		(uuid "2c4d3474-ec11-4340-ba6c-9859706e1ee4")
 		(property "Reference" "R2"
-			(at 38.1 95.25 90)
+			(at 30.48 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11217,7 +11442,7 @@
 			)
 		)
 		(property "Value" "2K"
-			(at 43.18 95.25 90)
+			(at 35.56 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11226,7 +11451,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 40.64 96.52 0)
+			(at 33.02 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11235,7 +11460,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 96.52 0)
+			(at 33.02 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11244,7 +11469,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 96.52 0)
+			(at 33.02 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15079,7 +15304,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 26.67 95.25 0)
+		(at 20.32 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15087,7 +15312,7 @@
 		(dnp no)
 		(uuid "abc9ff62-c989-4736-8065-5c112e689508")
 		(property "Reference" "#PWR03"
-			(at 26.67 99.06 0)
+			(at 20.32 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15096,7 +15321,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 26.67 91.44 0)
+			(at 20.32 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15104,7 +15329,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 95.25 0)
+			(at 20.32 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15113,7 +15338,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 95.25 0)
+			(at 20.32 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15122,7 +15347,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 26.67 95.25 0)
+			(at 20.32 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15890,7 +16115,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
-		(at 31.75 96.52 0)
+		(at 24.13 96.52 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15899,7 +16124,7 @@
 		(dnp no)
 		(uuid "ca897103-9eb5-4b51-b6a4-fa6868895d5b")
 		(property "Reference" "D2"
-			(at 31.75 93.98 0)
+			(at 24.13 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15907,7 +16132,7 @@
 			)
 		)
 		(property "Value" "LED_CHR"
-			(at 31.75 92.8624 0)
+			(at 24.13 92.8624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15916,7 +16141,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 31.75 96.52 90)
+			(at 24.13 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15925,7 +16150,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 96.52 90)
+			(at 24.13 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15934,7 +16159,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 96.52 0)
+			(at 24.13 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
